@@ -1,0 +1,104 @@
+[
+  {
+    "rule_id": "FINRA-2111",
+    "name": "Suitability Obligation",
+    "category": "Customer Protection",
+    "description": "A broker-dealer or associated person must have a reasonable basis to believe that a recommended transaction or investment strategy involving a security is suitable for the customer, based on the customer's investment profile, financial situation, and risk tolerance.",
+    "keywords": [
+      "suitability",
+      "recommendation",
+      "risk tolerance",
+      "investment profile",
+      "speculative",
+      "unsuitable",
+      "designed for everyone",
+      "all investors",
+      "limited experience",
+      "any customer",
+      "no experience needed",
+      "universal suitability"
+    ],
+    "severity_default": "HIGH",
+    "active": true
+  },
+  {
+    "rule_id": "FINRA-2210",
+    "name": "Communications with the Public",
+    "category": "Marketing & Communications",
+    "description": "All member communications must be fair, balanced, and not misleading. Communications must not contain false, exaggerated, unwarranted, promissory or misleading statements or claims, nor omit any material fact.",
+    "keywords": [
+      "guarantee",
+      "risk-free",
+      "guaranteed returns",
+      "promissory",
+      "certain profit",
+      "zero risk",
+      "assured",
+      "losses are unlikely",
+      "grow significantly",
+      "consistent growth",
+      "high returns",
+      "past performance",
+      "track record",
+      "downside protection",
+      "exceptional growth"
+    ],
+    "severity_default": "CRITICAL",
+    "active": true
+  },
+  {
+    "rule_id": "SEC-10B-5",
+    "name": "Prohibition of Fraud and Insider Information",
+    "category": "Market Integrity",
+    "description": "Unlawful to employ any device, scheme, or artifice to defraud, make untrue statements of material fact, or omit material facts necessary in connection with the purchase or sale of any security.",
+    "keywords": ["insider", "confidential tip", "non-public", "front-running", "manipulation", "undisclosed conflict"],
+    "severity_default": "CRITICAL",
+    "active": true
+  },
+  {
+    "rule_id": "CFPB-UDAAP",
+    "name": "Unfair, Deceptive, or Abusive Acts or Practices",
+    "category": "Consumer Protection",
+    "description": "Prohibits unfair, deceptive, or abusive acts or practices in offering or providing a financial product or service. Disclosures regarding interest rates, penalties, and recurring fees must be clear and conspicuous.",
+    "keywords": ["hidden fee", "unilateral fee", "undisclosed charge", "deceptive", "automatic renewal without notice", "misleading rate"],
+    "severity_default": "HIGH",
+    "active": true
+  },
+  {
+    "rule_id": "BSA-AML-CIP",
+    "name": "Customer Identification Program & AML",
+    "category": "Anti-Money Laundering",
+    "description": "Financial institutions must implement reasonable procedures to verify the identity of any person opening an account, maintain records of the information used to verify identification, and monitor for suspicious transactions.",
+    "keywords": ["anonymous account", "waive identity verification", "skip kyc", "unverified funds", "cash structuring", "shell company"],
+    "severity_default": "CRITICAL",
+    "active": true
+  },
+  {
+    "rule_id": "SOX-404",
+    "name": "Internal Controls Over Financial Reporting",
+    "category": "Financial Reporting",
+    "description": "Requires management and the independent auditor to report on the adequacy of the company's internal control over financial reporting, prohibiting unauthorized alterations of accounting ledgers.",
+    "keywords": ["off-balance sheet", "unrecorded liability", "backdate", "override controls", "accelerate revenue", "unapproved ledger entry"],
+    "severity_default": "HIGH",
+    "active": true
+  },
+  {
+    "rule_id": "GLBA-SAFEGUARDS",
+    "name": "Customer Financial Information Safeguards",
+    "category": "Data Privacy",
+    "description": "Financial institutions must ensure the security and confidentiality of customer information, protect against anticipated threats or unauthorized access to nonpublic personal information (NPI).",
+    "keywords": ["unencrypted ssn", "plain text password", "share customer data without consent", "unauthorized access", "npi disclosure"],
+    "severity_default": "MEDIUM",
+    "active": true
+  },
+  {
+    "rule_id": "MIFID-II-BEST-EX",
+    "name": "Best Execution Obligation",
+    "category": "Execution Standards",
+    "description": "Investment firms must take all sufficient steps to obtain the best possible result for their clients when executing orders, taking into account price, costs, speed, likelihood of execution and settlement.",
+    "keywords": ["order routing payment", "suboptimal execution", "client order delay", "internalization conflict", "markup without disclosure"],
+    "severity_default": "MEDIUM",
+    "active": true
+  }
+]
+

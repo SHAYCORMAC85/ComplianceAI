@@ -1,0 +1,15 @@
+[server]
+# Configures Streamlit's file uploader widget limit to match backend (15 MB)
+maxUploadSize = 15
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#3B82F6"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1E222D"
+textColor = "#F3F4F6"
+font = "sans serif"
+
